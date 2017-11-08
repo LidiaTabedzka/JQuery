@@ -1,4 +1,62 @@
 body {
     background-color: gray;
     color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#carousel {
+    margin: 50px auto;
+    position: relative;
+    height: 350px;
+    width: 525px;
+    border: 1px solid white;
+    overflow: hidden;
+    ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        width: 2625px;
+        li {
+            float: left;
+        }
+    }
+    ol {
+        position: absolute;
+        top: 275px;
+        text-align: center;
+        width: 525px;
+        padding: 0;
+        li {
+            width: 15px;
+            height: 15px;
+            border: 2px solid white;
+            border-radius: 50%;
+            display: inline-block;
+            margin: 5px;
+        }
+    }
+    .arrow {
+        position: absolute;
+        height: 100%;
+        width: 80px;
+        display: inline-block;
+        &:hover {
+            background-color: rgba(0,0,0,0.1);
+        }
+    }
+    .arrow:last-of-type {
+        right: 0;
+    }
+    .fa {
+        position: absolute;
+        top: 45%;
+        font-size: 30px;
+    }
+    .fa-chevron-right {
+        right: 35%;
+    }
+    .fa-chevron-left {
+        left: 35%;
+    }
 }
