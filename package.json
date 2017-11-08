@@ -1,0 +1,25 @@
+{
+  "name": "jquery",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LidiaTabedzka/JQuery.git"
+  },
+  "author": "Lidia Tabędzka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LidiaTabedzka/JQuery/issues"
+  },
+  "homepage": "https://github.com/LidiaTabedzka/JQuery#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sass": "^2.0.0"
+  }
+}
