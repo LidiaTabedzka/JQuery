@@ -2,10 +2,14 @@
 
 //I sposób
 var span = $("span");
+var ignored = ["span2", "span4"];
+
 span.each(function(index, element){
-    if (index % 2 != 0) {
+    var idList = element.getAttribute("id");
+
+    if ((index % 2 != 0) && (ignored.indexOf(idList) === -1)) {
         $(element).css("color", "blue");
-    }
+    }   
 });
 
 //II sposób
@@ -22,3 +26,4 @@ paragraph.each(function(index, element){
 $("button").click(function(){
     alert($(this).attr("data-tmp"));
 });
+
