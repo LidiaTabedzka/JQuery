@@ -35,6 +35,9 @@ body {
             display: inline-block;
             margin: 5px;
         }
+        .active {
+            background-color: white;
+        }
     }
     .arrow {
         position: absolute;
