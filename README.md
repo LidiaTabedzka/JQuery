@@ -1,0 +1,1 @@
+Branch Task2 - creating own carousel like the Bootstrap one using jQuery (image change every 3 seconds, the circle indicators show which image is currently being displayed, indicators can be clicked to jump to desired image, there are also arrows: left and right which enable jumping to the next or previous image).
